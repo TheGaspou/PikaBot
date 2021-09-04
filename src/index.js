@@ -30,10 +30,10 @@ fs.readdirSync("./src/Commands").filter(file => file.endsWith(".js")).forEach(fi
 bot.on("ready", () => { 
     console.log("____READY____");
     async function clearPikaStatusChannel(){
-        bot.channels.cache.get("881317566923018251").bulkDelete(10);
+        bot.channels.cache.get("change here").bulkDelete(10);
     }
-    clearPikaStatusChannel();
-    bot.channels.cache.get("881317566923018251").send(choose(assets.Hello));
+    clearPikaStatusChannel(); //delete this if you dont want the bot to delete messages
+    bot.channels.cache.get("change here").send(choose(assets.Hello)); //delete this if you dont want the bot to say hi when it connects
     bot.user.setActivity('Pokemon go', {type: 'PLAYING'});
     bot.user.setPresence({game: {
         name: 'Pokemon Go',
