@@ -5,9 +5,9 @@ module.exports = new Command({
     name: "quitbot",
     description: "send a message before stopping the bot",
     async run(message, args, client){
-        if (message.author.id == "475722658697314325"){
+        if (message.author.id == "change here with the owner of the bot"){
             message.reply("Oki bg je vais me coucher !! :flushed: ")
-            client.channels.cache.get("881317566923018251").send(choose(assets.Goodbye)).then(()=>{
+            client.channels.cache.get("change here again").send(choose(assets.Goodbye)).then(()=>{
                 process.exit();
             })
         }else{
