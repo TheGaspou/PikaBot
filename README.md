@@ -4,16 +4,20 @@ This bot is used to create some "cards" which are made for users to meet other o
 //
 Ce bot est fait pour créer des "cartes" faites pour permettre aux utilisateurs d'en rencontrer d'autres.
 
+# Requirements / Configuration requise
+- node.js 
 # Install / Installation
-1 . You have to create a discord app with discord develloper portal then create a bot and copy it's token. Create a config.json file and paste the token. <br/>
+1 . <br/> You have to create a discord app with discord develloper portal then create a bot and copy it's token. Create a config.json file and paste the token. <br/>
 // <br/>
 Vous devez créer une application discord sur le site discord develloper portal puis créez un bot et copiez son token. Ensuite créez une fichier config.json et collez le token.
 <br/> <br/>
-2 . You have to create a cards.json in this location => data/cards.json <br/>
+2. <br/> Install discord.js with the following command on the shell => npm install discord 
+<br/> <br/>
+3 . <br/> You have to create a cards.json in this location => data/cards.json <br/>
 // <br/>
 Créez un fichier cards.json à la location => data/cards.json <br/>
 
-3 . in index.js add an channel id (replace with the channel that you want the bot to say hi when he is connected [warning it will delete the last 10 messages, if you don't want you can delete the clearPikaStatusChannel() function in index.js]) in the function bot.on("ready") => bot.channels.cache.get("change here")
+4 . <br/> in index.js add an channel id (replace with the channel that you want the bot to say hi when he is connected [warning it will delete the last 10 messages, if you don't want you can delete the clearPikaStatusChannel() function in index.js]) in the function bot.on("ready") => bot.channels.cache.get("change here")
 in quitbot.js change this => client.channels.cache.get("change here with the same thing than before") <br/>
 // <br/> 
 Dans le fichier index.js ajoutez un channel id (remplacez avec l'id du salon dans lequel vous voulez que le bot dise bonjour quand il se connecte [attention cela va supprimer les 10 derniers messages du salon, si vous ne voulez pas supprimez la fonction clearPikaStatusChannel() inclus dans ce même fichier]) dans la fonction bot.on("ready") => bot.channels.cache.get("Changez ici")
