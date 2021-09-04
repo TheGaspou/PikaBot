@@ -1,0 +1,2 @@
+# PikaBot
+A discord bot.
