@@ -1,10 +1,10 @@
 # Pikabot
 A french discord bot. // Un bot discord en français.
-This bot is used to create some "cards" which are made for users to meet other ones.
-A lot of answers are used to be quite cringe, so you can change the strings if you want it to be cringeless.
-//
-Ce bot est fait pour créer des "cartes" faites pour permettre aux utilisateurs d'en rencontrer d'autres.
-Une bonne partie des réponses sont faîtes pour être gênantes, vous pouvez changez les chaînes de caractères des réponses si vous voulez être moins gêné.
+This bot is used to create some "cards" which are made for users to meet other ones. <br/>
+A lot of answers are used to be quite cringe, so you can change the strings if you want it to be cringeless. <br/>
+// <br/>
+Ce bot est fait pour créer des "cartes" faites pour permettre aux utilisateurs d'en rencontrer d'autres. <br/>
+Une bonne partie des réponses sont faîtes pour être gênantes, vous pouvez changez les chaînes de caractères des réponses si vous voulez être moins gêné. 
 
 # Requirements / Configuration requise
 - node.js 
