@@ -18,7 +18,7 @@ module.exports = new Command({
             {name: "=carte @<quelqu'un>", value: "Permet de voir la carte créer par celui que tu ping !!\n Pour en faire une : =register"},
             {name: "=cartedit", value: "Une commande permettant de modifier sa carte, elle peut aussi être utile pour s'enregistrer (=register) plus facilement puisqu'elle ne demande pas de syntaxe difficile à respecter !! :grin: "}
         )
-        embed.setURL("https://fr.pornhub.com/view_video.php?viewkey=ph5c75286c26a70")
+        embed.setURL("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
         message.reply({embeds: [embed]})
     }
 })
