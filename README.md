@@ -26,3 +26,13 @@ Dans le fichier index.js ajoutez un channel id (remplacez avec l'id du salon dan
 Dans le fichier quitbot.js changez cela => client.channels.cache.get("changez ici avec la même chose qu'avant") et changez également cela => if (message.author.id == "changez ici avec l'id du possesseur du bot")  <br/> <br/>
 
 If you are not french, you should change all the strings in the projects file.
+
+# All Commands / Toutes les commandes
+- =ping => gives the ping / donne le ping 
+- =help => display all the commands / Montre toutes les commandes
+- =register => Permits the user to create a card (command will be easier to use, work in progress)/ Permet à l'utilisateur de créer la carte (la commande va être plus à utiliser, attendez quelques mise à jour)
+- =carte @<someone/quelqu'un> => Display the card of someone that has been registred / Montre la carte de quelqu'un qui s'est enregistré.
+- =cartedit <nom/prénom/sexe/age/passion/autre> <new/nouveau> => Permits the user to change it's card element (element are in french change it in the code if you want) / Permet à l'utilisateur de changer un élément de sa carte.
+<br/>
+<br/>
+PikaBot 0.1 
