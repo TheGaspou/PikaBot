@@ -1,1 +1,14 @@
 // Your cards info will come here
+[
+  {
+        "userId": "change with the bot's id",
+        "name": "Pika 🌸",
+        "firstName": "Bot kun :flushed:",
+        "sexe": "Femme",
+        "age": "0.1",
+        "passion": "Vous !!!",
+        "otherInfos": "https://github.com/TheGaspou/PikaBot UwU !!!",
+        "pseudo": "🌸PikaBot🌸",
+        "avatar": "change with the result of console.log(bot.user.avatar);"
+    }
+]
